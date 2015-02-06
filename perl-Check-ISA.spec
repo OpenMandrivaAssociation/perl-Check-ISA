@@ -3,7 +3,7 @@
 
 Name:		perl-%{upstream_name}
 Version:	%perl_convert_version %{upstream_version}
-Release:    4
+Release:    5
 
 Summary:	DWIM, correct checking of an object's class
 License:	GPL+ or Artistic
