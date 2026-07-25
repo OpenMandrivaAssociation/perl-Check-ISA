@@ -1,15 +1,15 @@
 %define upstream_name    Check-ISA
-%define upstream_version 0.04
+%define upstream_version 0.09
 
 Name:		perl-%{upstream_name}
-Version:	%perl_convert_version %{upstream_version}
-Release:    5
+Version:	%{upstream_version}
+Release:    1
 
 Summary:	DWIM, correct checking of an object's class
 License:	GPL+ or Artistic
 Group:		Development/Perl
-Url:		https://search.cpan.org/dist/%{upstream_name}
-Source0:	http://www.cpan.org/modules/by-module/Check/%{upstream_name}-%{upstream_version}.tar.gz
+Url:		https://github.com/manwar/Check-ISA
+Source0:	https://cpan.metacpan.org/authors/id/M/MA/MANWAR/Check-ISA-%{upstream_version}.tar.gz
 
 BuildRequires:	make
 BuildRequires:	perl-devel
